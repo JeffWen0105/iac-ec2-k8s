@@ -1,4 +1,5 @@
 
+
 手動部署 K8s 叢集是件重複又繁瑣的事情，除了要先準備好基礎機器環境之外，還要每一台機器安裝依賴套件後，並一個一個加入叢集內，透過 Terraform + Ansible Iac 最佳組合自動化完成一整個系列從無到有創建。
 
 <!-- more -->
@@ -14,6 +15,7 @@
 
 ![](https://i.imgur.com/spP2gnu.png "K8s 狀態")
 
+---
 
 ## 2. Quick Start  
 >透過 Docker 快速創建 Terraform & Ansible 環境及 Iac Code。
