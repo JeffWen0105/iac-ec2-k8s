@@ -14,7 +14,7 @@ provider "aws" {
 
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
-  name = "tgc101"
+  name = "demo"
   cidr = "10.10.0.0/16"
   azs             = ["us-east-1a"]
   private_subnets = ["10.10.220.0/24"]
@@ -22,7 +22,7 @@ module "vpc" {
   enable_nat_gateway = true
 
   tags = {
-    Environment = "tgc101"
+    Environment = "demo"
   }
 
 }
